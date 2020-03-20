@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  background-image: url("img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  
+
+  section {
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    margin-right: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    h1 {
+      color: white;
+      margin-right: 30px;
+      margin-bottom: 250px;
+    }
+
+    .key_container {      
+      display: flex;
+      justify-content: space-evenly;
+      align-content: center;
+           
+      .key {
+        width: 45px;
+        height: 45px;
+        border: 2px solid rgb(5, 242, 250);
+        margin: 15px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition: all 0.07s;
+
+        
+          
+        .letter {         
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-weight: bolder;
+
+          }
+        }
+      }
+    }
+          
+            
+}
+
+
+.fuchsia-background {
+  background-color: fuchsia;
+  color: black;
+}
+
+.white-background {
+  background-color: white;
+  color: fuchsia;
+}
+          
+
+.playing {
+  transform: scale(1.8);
+  border: 2px solid #05fa19;
+  box-shadow: 0 0 10px #b0f1d1;
+}
